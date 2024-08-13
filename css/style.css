@@ -1,0 +1,673 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"); @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"); body {
+    font-family: Inter, sans-serif;
+    font-optical-sizing: auto;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+}
+
+.navbar-section {
+    background: linear-gradient(90deg, rgb(17, 17, 17) 0%, rgba(17, 17, 17, 0.694) 50%, rgb(17, 17, 17) 100%);
+    width: 100%;
+    height: 635px;
+    margin: 0px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 15%;
+}
+
+.nav-title {
+    color: rgb(230, 83, 60);
+    font-size: 36px;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.nav-menu {
+    margin-top: 10px;
+}
+
+.nav-link {
+    list-style: none;
+    display: flex;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 30px;
+    align-items: center;
+}
+
+.nav-toggler{}
+ul.nav-link {
+}
+
+.nav-link a {
+    text-decoration: none;
+}
+
+.nav-item {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0px 45px;
+    color: rgb(255, 255, 255);
+}
+
+#home-button {
+    background-color: rgb(230, 83, 60);
+    border-radius: 19px;
+    padding: 12px 20px;
+}
+
+.font-style {
+    font-family: "Dancing Script", cursive;
+    font-size: 65px;
+    font-weight: 900;
+}
+
+.banner-section {
+    margin: 0px 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-left {
+}
+
+.banner-title {
+    font-size: 65px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    margin-top: 60px;
+    margin-bottom: 28px;
+}
+
+.banner-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 28px;
+}
+
+.button-part {
+    display: flex;
+    align-items: center;
+}
+
+.btn-primary {
+    background-color: rgb(230, 83, 60);
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    border: none;
+}
+
+.simple-button {
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    background: transparent;
+    border-radius: 20px;
+    padding: 12px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.sticker-one {
+    background-color: rgba(255, 255, 255, 0.12);
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border-radius: 8px;
+    padding: 15px 20px;
+    margin-left: -60px;
+    margin-top: -125px;
+    border: none;
+    position: relative;
+}
+
+.sticker-two {
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 8%;
+    background-color: rgba(255, 255, 255, 0.12);
+    border-radius: 8px;
+    padding: 15px 20px;
+}
+
+.circle {
+    background-color: rgb(230, 83, 60);
+    border: 1px solid rgb(230, 83, 60);
+    border-radius: 50%;
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+}
+
+.tutorial {
+}
+
+.tutorial-number {
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+}
+
+.tutorial-text {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.59);
+}
+
+.habits-section {
+    background-color: rgb(0, 0, 0);
+    padding-bottom: 50px;
+    padding-top: 100px;
+}
+
+.habit-title {
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.habit-text {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.habit-details {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.habit-part {
+    text-align: center;
+    margin: 0px 5%;
+}
+
+.habit-part > img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.habit-part-name {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.habit-more-text {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.joining-section {
+    background-color: rgb(0, 0, 0);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.joining-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(34, 34, 34);
+    margin: 5% 17%;
+    padding: 30px;
+    gap: 265px;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.joining-details {
+}
+
+.joining-title {
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.joining-text {
+    color: rgba(255, 255, 255, 0.51);
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.joining-image {
+}
+
+.joining-image > img {
+    width: 21.8rem;
+    height: 18.6rem;
+    object-fit: cover;
+    border-radius: 18px;
+}
+
+.training-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgb(0, 0, 0);
+}
+
+.training-container {
+}
+
+.training-part {
+    display: flex;
+    flex-direction: column;
+    margin-left: 17%;
+}
+
+.trainging-title {
+    font-size: 48px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+
+.training-text {
+    color: rgba(255, 255, 255, 0.41);
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 58px;
+}
+
+.row {
+    height: 200px;
+    display: flex;
+    margin: 0px 17%;
+}
+
+.img-one-bg {
+    background-image: linear-gradient(0deg, rgba(6, 255, 210, 0.48) 50%, rgba(6, 255, 210, 0.46) 50%), url("../images/exercise1.jpg");
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.img-one-text {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    bottom: -80%;
+    position: relative;
+    right: -5%;
+}
+
+.img-two-bg {
+    background-image: linear-gradient(0deg, rgba(255, 0, 0, 0.49) 30%, rgba(255, 0, 0, 0.49) 30%), url("../images/exercise2.png");
+    width: 150%;
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.img-two-text {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    margin-left: 10px;
+    position: relative;
+    bottom: -10%;
+    right: -1%;
+}
+
+.img-three-bg {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.63) 50%, rgba(0, 0, 0, 0.63) 50%), url("../images/exercise3.png");
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.img-three-text {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    position: relative;
+    margin-left: 10px;
+    bottom: -70%;
+    left: 5%;
+}
+
+.img-four-bg {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.62) 50%, rgba(0, 0, 0, 0.62) 50%), url("../images/exercise4.png");
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.img-four-text {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    margin-left: 10px;
+    position: relative;
+    bottom: -10%;
+}
+
+.img-five-bg {
+    background-image: linear-gradient(0deg, rgba(66, 255, 0, 0.35) 30%, rgba(66, 255, 0, 0.35) 30%), url("../images/exercise5.jpg");
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.img-five-text {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    position: relative;
+    margin-left: 10px;
+    bottom: -70%;
+}
+
+.img-six-bg {
+    background-image: linear-gradient(0deg, rgba(0, 71, 255, 0.48) 30%, rgba(0, 71, 255, 0.48) 30%), url("../images/exercise6.jpg");
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.img-six-text {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    position: relative;
+    margin-left: 10px;
+    bottom: -70%;
+}
+
+.bmi-content {
+    margin: auto;
+    width: 600px;
+}
+
+.bmi-section {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bmi-title {
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.bmi-text {
+    color: rgba(255, 255, 255, 0.41);
+    font-size: 14px;
+}
+/* bmi calculate section */
+.bmi-calculate-section {
+    background-color: rgb(34, 34, 34);
+    padding-bottom: 80px;
+}
+
+.bmi-calculate-container {
+    display: flex;
+    margin: 0px 17%;
+    gap: 20%;
+}
+
+.bmi-chart {
+}
+
+.bmi-chart-name {
+    font-size: 28px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.bmi-table {
+}
+
+table {
+    border-collapse: collapse;
+}
+
+thead {
+}
+
+tbody {
+}
+
+tr {
+}
+
+td, th {
+    border: 1px solid rgba(255, 255, 255, 0.41);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+}
+
+th {
+    color: rgb(255, 255, 255);
+}
+
+.calculate-bmi {
+    margin-top: 5%;
+}
+
+.calculate-title {
+    color: rgb(255, 255, 255);
+    margin-bottom: 18px;
+    font-size: 28px;
+    margin-left: 10px;
+}
+
+.calculate-text {
+    color: rgba(255, 255, 255, 0.41);
+    margin-bottom: 35px;
+    margin-left: 10px;
+}
+
+.bmi-calculator {
+}
+
+.calculate-one {
+}
+
+.calculate-two {
+}
+
+.calculate-three {
+}
+
+form {
+}
+
+input {
+    color: rgb(255, 255, 255);
+    background-color: rgba(64, 62, 62, 0.58);
+    border: 1px solid rgb(51, 51, 51);
+    outline: none;
+    margin: 12px;
+    border-radius: 5px;
+}
+
+input::placeholder {
+    color: rgb(255, 255, 255);
+}
+
+#selector {
+    margin-bottom: 35px;
+    width: 79%;
+    padding: 15px 5px 16px 8px;
+}
+#main-selector{
+    padding: 10px 47px 10px 8px;
+}
+#btn-calculate{
+    margin-left: 10px;
+}
+/* bmi calculate section */
+
+/*team section style*/
+.team-section{
+    background-color: #000000;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+.team-title{
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+.team-text{
+    color: rgba(255, 255, 255, 0.41);
+    text-align: center;
+    margin-bottom: 58px;
+}
+.team-container{
+    margin: 0 17%;
+    background-color: #191919;
+}
+.trainer-image{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 35px 35px;
+    
+    border-radius: 20px;
+}
+.trainner-one-img{
+    background-image: url(../images/trainer1.png);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+.trainner-two-img{
+    background-image: url(../images/trainer2.png);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+.trainner-three-img{
+    background-image: url(../images/trainer3.png);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+.trainner-four-img{
+    background-image: url(../images/trainer4.png);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+.trainner-five-img{
+    background-image: url(../images/exercise5.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+.trainner-six-img{
+    background-image: url(../images/trainer6.png);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+.trainner-name{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    position: relative;
+    top: 10px;
+    margin-left: 10px;
+}
+.trainner-title{
+    color: #ffffffb3;
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+    top: 10px;
+    margin-left: 10px;
+}
+/*team section style*/
+
+/* footer section style */
+footer{
+    background-color: #191919;
+    padding-bottom: 80px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 12%;
+}
+.footer-one{}
+.footer-two{
+    padding-top: 52px;
+}
+.footer-three{
+    padding-top: 52px;
+}
+.footer-title{
+    color: #E6533C;
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-top: 52px;
+}
+.footer-text{
+    color: rgb(255 255 255 / 32%);
+    font-size: 14px;
+    font-weight: 400;
+}
+.f-title{
+    color: #ffffff;
+    font-size: 32px;
+    margin-bottom: 39px;
+}
+.f-text{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 23px;
+    margin: 20px 0;
+}
+.footer-line{}
+.f-line{
+    color: red;
+    height: 10px;
+    width: 100px;
+    display: block;
+}
+.last-part{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.last-text{color: rgba(255, 255, 255, 0.5);font-size: 20px;font-weight: 300;}
+/* footer section style */
